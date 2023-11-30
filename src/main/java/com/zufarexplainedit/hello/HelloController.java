@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping
     public ResponseEntity<String> getGreeting() {
-        String message = "Hello World!";
+        String message = "Hello World! Edited: 2023-Nov-30 18:28";
         return ResponseEntity.ok()
                 .body(message);
     }
